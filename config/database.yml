@@ -23,3 +23,8 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+
+#For setting product up w/ Heroku/postgresql when ready
+#  adapter: postgresql
+#  database: blocmetrics 
+#  host: localhost
